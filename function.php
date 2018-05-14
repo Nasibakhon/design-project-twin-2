@@ -16,8 +16,10 @@ function get_bolim(){
 function createDropDownAuthors($atr){
 	$select = '';
     $author_result = get_bolim();
+	
 	$text = "";
-	while ($row = mysqli_fetch_array($author_result)) {
+	
+	while ($row = mysqli_fetch_array($author_result)) {//Fetching the  result
     	$select = ($row['id']==$atr) ? 'selected': '';
          $text .= "<option ".$select." value='".$row['id']."'>".$row['name']."</option>";
     }
