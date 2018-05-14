@@ -8,7 +8,7 @@ include 'inc/tepa.php';
 if(isset($_POST['save'])){
 //print_r($_POST);
 //exit;
-	if($_POST['namee']==''){
+	if($_POST['namee']==''){//adding  post request
     $error= "Please enter the name of the book";
 	}
 
