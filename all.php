@@ -9,7 +9,7 @@
 			$que = 'select * from `kitoblar` ';
 			$result = mysqli_query($con, $que);
 			echo '<div id="templatemo_content_right">';
-				        echo '<h1>Books</h1>';
+				        echo '<h1>Books</h1>';//Showing  alla the  books
 
 			while($row=mysqli_fetch_array($result)){
 
