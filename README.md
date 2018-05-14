@@ -8,4 +8,4 @@ You have to submit your project into this repository before 06.05.2018
 Team name is : Twin 2 
 Team  members : 
 U1610074 Tulasheva Gulkhayo
-U1610164 Elchiyeva Nasiba
+U1610164 Elchiyeva Nasibahon
