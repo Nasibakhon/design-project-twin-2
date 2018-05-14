@@ -1,3 +1,4 @@
+
 <?php 
       include 'inc/db.php'; 
       include 'inc/tepa.php'; 
@@ -18,8 +19,10 @@
 
         echo '
         	<div class="templatemo_product_box">
+		
             	<h1>'.$row['nomi'].'  <span>('.$row['mualif'].')</span></h1>
-   	      <img src="screen/'.$row['img'].'" alt="'.$row['nomi'].'" width="100px" height="150" />
+		
+   	      <img src="screen/'.$row['img'].'" alt="'.$row['nomi'].'" width="100px" height="150" />//layout for this image
                 <div class="product_info">
                 	<p>'.$row['short'].'</p>
                     <div class="buy_now_button"><a href="view.php?id='.$row['id'].'">batfasil</a></div>
